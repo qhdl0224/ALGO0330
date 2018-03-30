@@ -21,9 +21,48 @@
     <ClCompile Include="..\..\..\..\..\..\..\data\ex2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ex3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex6.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex7.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex8.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex9.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex10.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex11.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\..\..\..\..\data\ex1.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="ex8.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="ex9.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="ex10.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="ex11.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>

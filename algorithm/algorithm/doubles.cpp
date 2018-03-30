@@ -5,10 +5,11 @@ using namespace std;
 int print(int num,int arr[][15]);
 int main()
 {
+	FILE *stream;
 	int num;
 	int result;
 	int arr[3][15];
-	freopen("C:\\data\\ex1.txt", "r", stdin);
+	stream = freopen("C:\\data\\ex1.txt", "r", stdin);
 	cin >> num;
 
 	for (int i = 0; i < num; i++)
@@ -38,7 +39,7 @@ int main()
 		cout << "\n";
 		cout << "2배 값이 존재하는 원소의 개수는 "<<result<<"개 입니다" << '\n';
 	}
-
+	fclose(stream);
 }
 int print(int num,int arr[][15])
 {
